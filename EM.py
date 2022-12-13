@@ -15,12 +15,9 @@ def main():
   for line in stream_c:
     list_c.append(float(line.strip()))
   iterations = 0
-  #list_d = [float(1)/float(8000)] * len(list_a)
   allstreams.append(list_a)
   allstreams.append(list_b)
   allstreams.append(list_c)
-  #allstreams.append(list_c)
-  #allstreams.append(list_d)
 
   #start with uniform lambdas
   lambdas = [float(1)/float(len(allstreams))] * len(allstreams)
